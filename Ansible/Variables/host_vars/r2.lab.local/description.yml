@@ -1,5 +1,0 @@
-
-#
-# description.yml
----
-description: "Cisco IOS router {{ inventory_hostname }} at {{ ansible_host }}"

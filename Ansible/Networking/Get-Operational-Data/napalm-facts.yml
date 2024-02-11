@@ -1,9 +1,0 @@
----
-- hosts: all
-  tasks:
-  - napalm_get_facts:
-      hostname: "{{ansible_host|default(inventory_hostname)}}"
-      username: "{{ansible_user}}"
-      password: "{{ansible_ssh_pass}}"
-      dev_os: "{{ansible_network_os}}"
-      filter: [ arp_table,interfaces ]

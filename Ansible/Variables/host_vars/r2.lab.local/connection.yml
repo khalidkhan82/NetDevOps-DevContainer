@@ -1,4 +1,0 @@
-#
-# connection.yml
----
-ansible_host: 172.16.1.102

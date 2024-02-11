@@ -1,6 +1,0 @@
----
-- hosts: junos
-  tasks:
-  - junos_command:
-      commands: "show version"
-    register: version

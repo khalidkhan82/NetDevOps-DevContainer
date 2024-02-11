@@ -1,4 +1,0 @@
----
-- name: "Ping {{item}} from NX-OS devices"
-  nxos_ping:
-    dest: "{{ item }}"

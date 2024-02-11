@@ -1,5 +1,0 @@
----
-- template:
-    src: "{{ansible_network_os}}-common.j2"
-    dest: "{{configs}}/00-common-{{inventory_hostname}}.inc"
-  name: create common device configuration

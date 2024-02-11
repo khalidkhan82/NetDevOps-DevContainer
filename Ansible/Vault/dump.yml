@@ -1,8 +1,0 @@
----
-- name: Dump Ansible variables
-  hosts: all
-  tasks:
-  - debug:
-      msg: >
-        username: {{ansible_user}}
-        password: {{ansible_ssh_pass}}

@@ -1,9 +1,0 @@
----
-ansible_user: vagrant
-ansible_ssh_pass: vagrant
-snmp_community: cisco
-snmp_contact: admin@lab.local
-snmp_host: 172.16.1.12
-syslog_host: 172.16.1.12
-gw: 172.16.0.1
-connection: network_cli
