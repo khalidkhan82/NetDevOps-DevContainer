@@ -1,4 +1,0 @@
-ip access-list standard LocalPrefixes
-{% for intf in interfaces %}
-  permit {{ intf.ip|ipaddr(0)|ipaddr('network_wildcard') }}
-{% endfor %}
